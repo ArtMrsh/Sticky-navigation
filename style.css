@@ -1,0 +1,209 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+   width: 100%;
+}
+header {
+   background-color: #E1E1E1;
+   transition: all .3s;
+}
+.fixed {
+   padding: 15px 0;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   box-shadow: 10px 0px 5px 5px rgba(255,255,255 .5);
+}
+.header__inner, .header__navigation {
+   display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.header__navigation, .header__contacts, .header__logo {
+   text-align: center;
+}
+.header__logo img {
+   width: 100px;
+   height: 100px;
+}
+.header__logo, .header__contacts {
+   flex-basis: 25%;
+}
+.menu {
+   flex-basis: 50%;
+}
+.header__navigation {
+   justify-content: space-around;
+}
+.header__navigation li a {
+   text-decoration: none;
+   font-size: 18px;
+   color: #7CA67C;
+   text-transform: uppercase;
+}
+.header__navigation li a:hover {
+   color: #4ACA4A;
+}
+.header__contacts {
+   height: 100%;
+   display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.header__contacts p {
+   font-size: 20px;
+   color: #000;
+}
+.header__contacts p:last-child {
+   margin-top: 10px;
+}
+.descr {
+   width: 100%;
+   height: 700px;
+   background-image: url(img/clover-1225988_960_720.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-attachment: fixed;
+   display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+.descr h1 {
+   font-size: 48px;
+   padding-bottom: 20px;
+}
+.descr h3 {
+   font-size: 28px;
+   font-style: italic;
+   font-weight: lighter;
+}
+.descr a {
+   font-size: 20px;
+   color: #fff;
+   text-decoration: none;
+   border: 2px solid #fff;
+   padding: 10px 25px;
+   text-transform: uppercase;
+   font-weight: bold;
+   display: inline-block;
+   margin-top: 100px;
+}
+.descr a:hover {
+   background-color: #fff;
+   color: #7CA67C;
+}
+.content {
+   background-color: #E1E1E1;
+   display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   padding: 30px;
+   -webkit-flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+}
+.content__image {
+   flex-basis: 40%;
+   background-image: url(img/blogphoto_1456043315.jpg);
+   background-repeat: no-repeat;
+}
+.content__descr {
+   flex-basis: 60%;
+   padding: 0 20px;
+}
+.advantages {
+   display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   padding: 30px;
+}
+.advantages__item {
+   padding: 160px 30px 0 30px;
+   background-image: url(img/mar.png);
+   background-position: center 0;
+   background-repeat: no-repeat;
+   -webkit-background-size: 100px 130px;
+   background-size: 100px 130px;
+}
+.para {
+   padding: 30px;
+   background-color: #E1E1E1;
+}
+footer {
+   width: 100%;
+   background-color: #7CA67C;
+   padding: 50px;
+   text-align: center;
+}
+footer p {
+   color: #fff;
+}
+.gallery {
+   display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   justify-content: center;
+   -ms-align-items: center;
+   align-items: center;
+   -webkit-flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+}
+.row {
+   display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-basis: 100%;
+}
+.gallery__item {
+   flex-basis: 33.3333%;
+   background-position: center center;
+   -webkit-background-size: cover;
+   background-size: cover;
+   height: 250px;
+   width: 300px;
+}
+.gallery__item_1 {
+   background-image: url(img/1.jpg);
+}
+.gallery__item_2 {
+   background-image: url(img/2.jpg);
+}
+.gallery__item_3 {
+   background-image: url(img/3.jpg);
+}
+.gallery__item_4 {
+   background-image: url(img/4.jpg);
+}
+.gallery__item_5 {
+   background-image: url(img/5.jpg);
+}
+.gallery__item_6 {
+   background-image: url(img/6.jpg);
+}
